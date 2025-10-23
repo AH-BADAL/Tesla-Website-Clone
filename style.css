@@ -607,7 +607,7 @@ footer p{
     width: 150px;
     font-size: 14px;
   }
-
+  
   .content-two h3, .content-three h3,
   .content-four h3, .content-five h3,
   .content-x h3, .content-y h3 {
@@ -617,6 +617,7 @@ footer p{
   .container-six video {
     width: 100%;
     height: auto;
+    pointer-events: auto;
   }
 
   .content-nine h1 {
