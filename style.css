@@ -448,3 +448,188 @@ footer p{
   color: black;
   font-size: 12px;
 }
+
+
+
+
+
+
+
+/* mobile responsive start here */
+
+/* 🌍 MOBILE RESPONSIVE DESIGN - ZEN Z TESLA VIBE 🚗⚡ */
+
+@media (max-width: 1024px) {
+  main {
+    margin: 0 20px;
+  }
+  .container-two, .container-four, .container-nine {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-two, .content-three,
+  .content-four, .content-five,
+  .content-x, .content-y {
+    width: 100%;
+    height: 400px;
+  }
+  .content-nine {
+    width: 100%;
+    background-position: center;
+  }
+  .content-nine h1 {
+    font-size: 30px;
+  }
+  .content-eight video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  /* 🧭 Navbar */
+  .main-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .main-x {
+    flex: 1 1 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .main-div a {
+    font-size: 14px;
+  }
+
+  /* 🚘 Hero Section */
+  .container-one {
+    height: 550px;
+    background-position: center;
+  }
+  .content-one h1 {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .order, .learn {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* 🚗 Car Sections */
+  .container-two, .container-four, .container-nine {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-two, .content-three,
+  .content-four, .content-five,
+  .content-x, .content-y {
+    width: 100%;
+    height: 400px;
+    padding-left: 20px;
+  }
+
+  /* 🎬 Video Section */
+  .container-six {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-eight video {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  .content-nine {
+    width: 100%;
+    height: 400px;
+  }
+  .content-nine h1 {
+    font-size: 28px;
+    margin-top: 60%;
+  }
+
+  /* 🗺️ Map */
+  .container-seven iframe {
+    width: 100%;
+    height: 350px;
+  }
+
+  /* ⚡ Stats Section */
+  .container-eight {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .content-ten {
+    width: 100%;
+  }
+
+  /* 💬 Footer */
+  footer p {
+    font-size: 10px;
+    width: 95%;
+    padding-left: 2.5%;
+  }
+  .footer-last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* 📱 Super Mobile Layout */
+  .main-div {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-div a {
+    font-size: 13px;
+    padding: 5px;
+  }
+  .main-x {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+
+  .content-one h1 {
+    font-size: 35px;
+    padding-top: 80px;
+  }
+
+  .order, .learn {
+    width: 150px;
+    font-size: 14px;
+  }
+
+  .content-two h3, .content-three h3,
+  .content-four h3, .content-five h3,
+  .content-x h3, .content-y h3 {
+    font-size: 28px;
+  }
+
+  .container-six video {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-nine h1 {
+    font-size: 24px;
+    margin-top: 65%;
+  }
+
+  .content-ten h1 {
+    font-size: 28px;
+  }
+  .content-ten p {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 10px;
+    margin: 50px 0;
+  }
+}
