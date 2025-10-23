@@ -528,11 +528,14 @@ footer p{
     height: 550px;
     padding-left: 20px;
   }
-
+  .container-five{
+    display: none;
+  }
   /* 🎬 Video Section */
   .container-six {
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
   .content-eight video {
     width: 100%;
@@ -580,10 +583,11 @@ footer p{
 
 @media (max-width: 480px) {
   /* 📱 Super Mobile Layout */
-  .main-div {
-    flex-direction: column;
-    align-items: center;
+  .main-div{
+    height: 100px;
+
   }
+    
   .main-div a {
     font-size: 13px;
     padding: 5px;
@@ -591,6 +595,7 @@ footer p{
   .main-x {
     font-size: 20px;
     letter-spacing: 3px;
+    margin-left: 10px;
   }
 
   .content-one h1 {
