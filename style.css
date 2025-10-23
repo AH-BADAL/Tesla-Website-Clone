@@ -2,10 +2,10 @@
   margin: 0%;
 }
 Body{
-  font-family: tahoma;
+  font-family:Cascadia Code;
 }
 .container-one{
-  background-image: url(el-3-Desktop.avif);
+  background-image: url(images/el-3-Desktop.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height:670px;
@@ -42,7 +42,6 @@ main{
   background:white;
   font-size: 15px;
   border: none;
-  font-family: 'Segoe UI, 'Helvetica Neue', sans-serif;
 }
 .container-two{
   margin-top: 50px;
@@ -50,7 +49,7 @@ main{
   gap: 10px;
 }
 .content-two{
-  background-image: url(car-one.avif);
+  background-image: url(images/cc.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -59,7 +58,7 @@ main{
   padding-left: 50px;
 }
 .content-three{
-  background-image: url(car-2avif.avif);
+  background-image: url(images/car-2avif.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -117,7 +116,7 @@ main{
   gap: 10px;
 }
 .content-four{
-  background-image: url(cc.avif);
+  background-image: url(images/cc.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -149,7 +148,7 @@ main{
 
 
 .content-five{
-  background-image: url(aa.avif);
+  background-image: url(images/aa.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
