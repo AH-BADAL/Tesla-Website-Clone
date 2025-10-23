@@ -456,7 +456,6 @@ footer p{
 
 
 /* mobile responsive start here */
-
 /* 🌍 MOBILE RESPONSIVE DESIGN - ZEN Z TESLA VIBE 🚗⚡ */
 
 @media (max-width: 1024px) {
@@ -491,15 +490,14 @@ footer p{
   .main-div {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-  }
-  .main-x {
-    flex: 1 1 100%;
-    text-align: center;
-    margin-bottom: 5px;
   }
   .main-div a {
+    margin: 5px;
     font-size: 14px;
+  }
+  .main-x {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 
   /* 🚘 Hero Section */
@@ -527,7 +525,7 @@ footer p{
   .content-four, .content-five,
   .content-x, .content-y {
     width: 100%;
-    height: 400px;
+    height: 550px;
     padding-left: 20px;
   }
 
